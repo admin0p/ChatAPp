@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup ChatApp</title>
+</head>
+<body>
+       <h1>signup :)</h1>
+       <p><%=status%></p>
+    <form action="/signup" method="POST">
+        <br><br>
+        <label for="username">username</label>
+        <input type="text" name="username">
+        <br><br>
+        <label for="password">password</label>
+        <input type="password" name="password">
+        <button type="submit">signup</button>
+    </form>
+    <a href="/login"><button>login</button></a>
+</body>
+</html>
